@@ -12,6 +12,8 @@
 		C009901F228E07EA0006600A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C009901D228E07EA0006600A /* Main.storyboard */; };
 		C0099021228E07EC0006600A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0099020228E07EC0006600A /* Assets.xcassets */; };
 		C0099024228E07EC0006600A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0099022228E07EC0006600A /* LaunchScreen.storyboard */; };
+		C009902E228E0A4B0006600A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C009902D228E0A4B0006600A /* CollectionViewCell.swift */; };
+		C0099030228E16510006600A /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C009902F228E16510006600A /* GameEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C0099020228E07EC0006600A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0099023228E07EC0006600A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0099025228E07EC0006600A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C009902D228E0A4B0006600A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C009902F228E16510006600A /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				C0099019228E07EA0006600A /* AppDelegate.swift */,
 				C009901B228E07EA0006600A /* ViewController.swift */,
+				C009902D228E0A4B0006600A /* CollectionViewCell.swift */,
 				C009901D228E07EA0006600A /* Main.storyboard */,
 				C0099020228E07EC0006600A /* Assets.xcassets */,
 				C0099022228E07EC0006600A /* LaunchScreen.storyboard */,
 				C0099025228E07EC0006600A /* Info.plist */,
+				C009902F228E16510006600A /* GameEngine.swift */,
 			);
 			path = Neko2048Game;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0099030228E16510006600A /* GameEngine.swift in Sources */,
 				C009901C228E07EA0006600A /* ViewController.swift in Sources */,
+				C009902E228E0A4B0006600A /* CollectionViewCell.swift in Sources */,
 				C009901A228E07EA0006600A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
